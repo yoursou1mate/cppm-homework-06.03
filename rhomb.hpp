@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef rhomb_hpp
-#define rhomb_hpp
+#pragma once
+#include <iostream>
+#include "parallelogram.hpp"
 
-#include <stdio.h>
-
-#endif /* rhomb_hpp */
+class Rhomb : public Parallelogram
+{
+public:
+    Rhomb (int a, int A, int B) : Parallelogram (a, b = a, A, B){};
+};

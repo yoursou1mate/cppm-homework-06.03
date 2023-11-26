@@ -6,3 +6,10 @@
 //
 
 #include "figure.hpp"
+
+
+void Figure::print_info ()
+{
+   std::cout << name << std::endl;
+   std::cout << sides_count << std::endl;
+}

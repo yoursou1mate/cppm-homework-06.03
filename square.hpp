@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef square_hpp
-#define square_hpp
+#pragma once
+#include <iostream>
+#include "rectangle.hpp"
 
-#include <stdio.h>
-
-#endif /* square_hpp */
+class Square : public Rectangle
+{
+public:
+    Square (int a) : Rectangle (a, b = a){};
+};

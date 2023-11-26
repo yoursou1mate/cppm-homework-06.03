@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef rectangle_hpp
-#define rectangle_hpp
+#pragma once
+#include <iostream>
+#include "quadrilateral.hpp"
 
-#include <stdio.h>
-
-#endif /* rectangle_hpp */
+class Rectangle : public Quadrilateral
+{
+public:
+    Rectangle (int a, int b) : Quadrilateral (a, b, c = a, d = b, A = 90, B = A, C = A, D = A){};
+};

@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef isosceles_triangle_hpp
-#define isosceles_triangle_hpp
+#pragma once
+#include <iostream>
+#include "triangle.hpp"
 
-#include <stdio.h>
-
-#endif /* isosceles_triangle_hpp */
+class Isosceles_triangle : public Triangle
+{
+public:
+    Isosceles_triangle (int a, int b, int A, int B) : Triangle (a, b, a, A, B, A ){};
+};

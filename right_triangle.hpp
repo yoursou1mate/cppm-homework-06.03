@@ -5,9 +5,13 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef right_triangle_hpp
-#define right_triangle_hpp
+#pragma once
+#include <iostream>
+#include "triangle.hpp"
 
-#include <stdio.h>
+class Right_triangle : public Triangle
+{
+public:
+    Right_triangle (int a, int b, int c, int A, int B) : Triangle (a, b, c, A, B, C = 90){};
+};
 
-#endif /* right_triangle_hpp */

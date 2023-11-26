@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef equilateral_triangle_hpp
-#define equilateral_triangle_hpp
+#pragma once
+#include <iostream>
+#include "triangle.hpp"
 
-#include <stdio.h>
-
-#endif /* equilateral_triangle_hpp */
+class Equilateral_triangle : public Triangle
+{
+public:
+    Equilateral_triangle (int a) : Triangle (a, a, a, A = 60, B = 60, C = 60){};
+};

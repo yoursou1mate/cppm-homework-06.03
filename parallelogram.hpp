@@ -5,9 +5,12 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef parallelogram_hpp
-#define parallelogram_hpp
+#pragma once
+#include <iostream>
+#include "quadrilateral.hpp"
 
-#include <stdio.h>
-
-#endif /* parallelogram_hpp */
+class Parallelogram : public Quadrilateral
+{
+public:
+    Parallelogram (int a, int b, int A, int B) : Quadrilateral (a, b, a, b, A, B, A, B){};
+};

@@ -5,9 +5,15 @@
 //  Created by a1ex on 11/22/23.
 //
 
-#ifndef figure_hpp
-#define figure_hpp
+#pragma once
+#include <iostream>
 
-#include <stdio.h>
-
-#endif /* figure_hpp */
+class Figure
+{
+protected:
+    int sides_count = 0;
+    std::string name = "Figure :";
+public:
+    virtual void print_info ();
+    
+};
