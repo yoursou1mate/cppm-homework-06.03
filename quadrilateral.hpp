@@ -23,17 +23,7 @@ protected:
     int D = 0;
     
 public:
-    Quadrilateral (int a, int b, int c, int d, int A, int B, int C, int D)
-    {
-        this->a = a;
-        this->b = b;
-        this->c = c;
-        this->d = d;
-        this->A = A;
-        this->B = B;
-        this->C = C;
-        this->D = D;
-    }
+    Quadrilateral (int a, int b, int c, int d, int A, int B, int C, int D);
     
     std::string get_sides ();
     std::string get_angles ();

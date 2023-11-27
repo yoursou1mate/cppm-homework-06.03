@@ -20,15 +20,7 @@ protected:
     int C = 0;
     
 public:
-    Triangle (int a,int b, int c, int A, int B, int C)
-    {
-        this->a = a;
-        this->b = b;
-        this->c = c;
-        this->A = A;
-        this->B = B;
-        this->C = C;
-    }
+    Triangle (int a,int b, int c, int A, int B, int C);
     
     std::string get_sides ();
     std::string get_angles ();

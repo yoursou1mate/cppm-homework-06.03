@@ -6,3 +6,5 @@
 //
 
 #include "isosceles_triangle.hpp"
+
+Isosceles_triangle::Isosceles_triangle (int a, int b, int A, int B) : Triangle (a, b, a, A, B, A ){};

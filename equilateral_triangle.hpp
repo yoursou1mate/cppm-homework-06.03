@@ -12,5 +12,5 @@
 class Equilateral_triangle : public Triangle
 {
 public:
-    Equilateral_triangle (int a) : Triangle (a, a, a, A = 60, B = 60, C = 60){};
+    Equilateral_triangle (int a);
 };

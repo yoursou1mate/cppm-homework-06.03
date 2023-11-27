@@ -6,3 +6,6 @@
 //
 
 #include "square.hpp"
+
+
+Square::Square (int a) : Rectangle (a, a){};

@@ -12,5 +12,5 @@
 class Square : public Rectangle
 {
 public:
-    Square (int a) : Rectangle (a, b = a){};
+    Square (int a);
 };

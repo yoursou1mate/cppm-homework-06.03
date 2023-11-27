@@ -12,5 +12,5 @@
 class Rhomb : public Parallelogram
 {
 public:
-    Rhomb (int a, int A, int B) : Parallelogram (a, b = a, A, B){};
+    Rhomb (int a, int A, int B);
 };

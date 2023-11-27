@@ -12,5 +12,5 @@
 class Rectangle : public Quadrilateral
 {
 public:
-    Rectangle (int a, int b) : Quadrilateral (a, b, c = a, d = b, A = 90, B = A, C = A, D = A){};
+    Rectangle (int a, int b);
 };
