@@ -1,3 +1,4 @@
+#include "main.hpp"
 //
 //  main.cpp
 //  cppm-homework-06.03
@@ -6,6 +7,7 @@
 //
 
 #include <iostream>
+#include <string>
 #include "figure.hpp"
 #include "triangle.hpp"
 #include "right_triangle.hpp"

@@ -1,12 +1,11 @@
 //
 //  figure.cpp
-//  cppm-homework-06.03
+//  main.cpp
 //
-//  Created by a1ex on 11/22/23.
+//  Created by a1ex on 12/10/23.
 //
 
 #include "figure.hpp"
-
 
 void Figure::print_info ()
 {

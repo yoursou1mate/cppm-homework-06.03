@@ -6,7 +6,7 @@
 //
 
 #include "triangle.hpp"
-//#include <iostream>
+#include <iostream>
 
 Triangle::Triangle (int a,int b, int c, int A, int B, int C)
 {

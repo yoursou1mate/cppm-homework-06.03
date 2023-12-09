@@ -1,8 +1,8 @@
 //
 //  figure.hpp
-//  cppm-homework-06.03
+//  main.cpp
 //
-//  Created by a1ex on 11/22/23.
+//  Created by a1ex on 12/10/23.
 //
 
 #pragma once
@@ -17,3 +17,4 @@ public:
     virtual void print_info ();
     
 };
+

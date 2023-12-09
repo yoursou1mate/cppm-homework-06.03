@@ -3,26 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
 		24E9E8DFCA3C4414A62BDEE8 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D68BD6A31C984613A433D150 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 52158807FFD94E0297315FC2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				08D484430FD46C86387BFBB9 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				273579E28288415AA9E99EFD /* PBXTargetDependency */,
-				BA9A160268B34813A0952CE0 /* PBXTargetDependency */,
+				ABF3F170CD3848079319F65C /* PBXTargetDependency */,
+				D1695CFFDF214740BC37C072 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		DBE4D5EA77E3498E83D3178F /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 92A0F9D2A5A144668CFD3AA7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = E783FB9E3E18427592A99D09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				D4D7A2B74F000103B72FB7A6 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -34,76 +34,35 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0AE0975B86FD412CBE597A40 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.hpp */ = {isa = PBXBuildFile; fileRef = A41201A92CD74213B01A2603 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.hpp */; };
-		22D23CD52B9D4205B2CB3267 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.hpp */ = {isa = PBXBuildFile; fileRef = AA9B1A7853B44038A262BE9C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.hpp */; };
-		268BDA795B88499E92FC5837 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.hpp */ = {isa = PBXBuildFile; fileRef = 147C3E9C797A4AD292A047A5 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.hpp */; };
-		287C8E2041934895B4B4C212 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.cpp */ = {isa = PBXBuildFile; fileRef = D9528C9D47434D78A2EF265F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.cpp */; };
-		49DD2F2B4B4F4EE98877BD80 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DC2BAB83FC2B4FBC86655D73 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */; };
-		4AC43C63396743D7AD4C03CB /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.hpp */ = {isa = PBXBuildFile; fileRef = 72A35D5B2C7F4A499CA42ED4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.hpp */; };
-		6228BBC247C04ACA91A82BC3 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.hpp */ = {isa = PBXBuildFile; fileRef = E218FE75F689476E8C426C80 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.hpp */; };
-		6C0054F0A7794F10AA08F854 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.hpp */ = {isa = PBXBuildFile; fileRef = 1DF559C436F94373A499A784 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.hpp */; };
-		800990EE53E3463D8E08F71F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.cpp */ = {isa = PBXBuildFile; fileRef = CB5C593C27124C5C944032D6 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.cpp */; };
-		83162084224C4DD79E77AE23 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.cpp */ = {isa = PBXBuildFile; fileRef = A50577F169D54195B859DE12 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.cpp */; };
-		8E84A1E942D8482E8FE17250 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.cpp */ = {isa = PBXBuildFile; fileRef = C25B15AC32864DAF879E2E65 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.cpp */; };
-		9403D9D946D744A8AEF45FB3 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.hpp */ = {isa = PBXBuildFile; fileRef = E423475D9C8948A782ECE206 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.hpp */; };
-		9CBF88A42C834A4AA785027F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.hpp */ = {isa = PBXBuildFile; fileRef = 89BCE748BEBE4F65A955C5B0 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.hpp */; };
-		A0319E68981F49FF8A6FBBCF /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.cpp */ = {isa = PBXBuildFile; fileRef = 2843170E1F3E4439BF8FD74A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.cpp */; };
-		AC730CDB3F194BFF8FE4035C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.cpp */ = {isa = PBXBuildFile; fileRef = 7F6C5844B44A4603975F28B4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.cpp */; };
-		AF4D1E498EAC4DC1ACC8745B /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.cpp */ = {isa = PBXBuildFile; fileRef = 36623C0267EA492D976A83F2 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.cpp */; };
-		B30A80579D124E12AB6D3BDD /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.cpp */ = {isa = PBXBuildFile; fileRef = 0E7AFCC4B8264FB9986E3716 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.cpp */; };
-		C5B44FC2908E4F88A0490815 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.cpp */ = {isa = PBXBuildFile; fileRef = C6F6E6FCAD5248DEA7D9CF21 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.cpp */; };
-		E21B15192B4542A7BABCD4A6 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.hpp */ = {isa = PBXBuildFile; fileRef = C4F3E76C3B7B4F818AEB6B97 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.hpp */; };
-		F0530C587F244BFC9634E62C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.hpp */ = {isa = PBXBuildFile; fileRef = 69D0E372DF534D2AAA060ECE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.hpp */; };
-		FD20CAC82F9D48D49FA6B40A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.cpp */ = {isa = PBXBuildFile; fileRef = A345471EE50146F39D9E7DFE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.cpp */; };
+		00343F5A2B251A440058A1D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00343F582B251A440058A1D7 /* main.cpp */; };
+		00343F632B251C620058A1D7 /* figure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00343F612B251C620058A1D7 /* figure.cpp */; };
+		01CD6B02E7E747B98A77F80F /* rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1F641FBBD064EB4908C7E05 /* rectangle.cpp */; };
+		077B44F984534B299F594EC1 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC30714EA58848F8AB6B6079 /* square.cpp */; };
+		3DD11597EA774AFFBBEF22A4 /* parallelogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29A5EC3B2289413284839CDA /* parallelogram.cpp */; };
+		522B54DE9FEF45D98AB4C054 /* quadrilateral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3C4786312374AFC9E9F7271 /* quadrilateral.cpp */; };
+		65DDC4F3E1A54B29A98B195C /* rhomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A73EB995876B4C12A2DBADC3 /* rhomb.cpp */; };
+		C0469F0FDB7C4830A208C561 /* isosceles_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44BB076E4C6F43879417C517 /* isosceles_triangle.cpp */; };
+		C51CA8CA188943BBB39A6B26 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF5C9E0C4BEC4E90A59228A1 /* triangle.cpp */; };
+		DAEB51B033D44330875AC2EB /* right_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0C01856C36E4A2A86832289 /* right_triangle.cpp */; };
+		ED90C5E060DB4AC5AFAD9DDF /* equilateral_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE56C8A89FBC48578C20E160 /* equilateral_triangle.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		346A5A2490824A4694AA6A07 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		4D4B065F9FAC4FA8A80EEDCA /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		88A5D4A7EA69432EA970F50E /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		8A2E89BE1ACD4893B4F164B6 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXContainerItemProxy section */
-		1FC84DADD4AF4240997F76EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB16A2B53FE04F61BBBD66EF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DBE4D5EA77E3498E83D3178F;
-			remoteInfo = ZERO_CHECK;
-		};
-		64928202D35948ACA34E9342 /* PBXContainerItemProxy */ = {
+		6B2343D34C5E41AAB10169FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FB16A2B53FE04F61BBBD66EF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FB835F4882B44F77A489FF6B;
 			remoteInfo = main.cpp;
 		};
-		FC7637ABFA6D4BBF97552603 /* PBXContainerItemProxy */ = {
+		D79B14EE5D5E4B89B808172E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB16A2B53FE04F61BBBD66EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE4D5EA77E3498E83D3178F;
+			remoteInfo = ZERO_CHECK;
+		};
+		F3B0DE912EBD4961ABBBD957 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FB16A2B53FE04F61BBBD66EF /* Project object */;
 			proxyType = 1;
@@ -113,33 +72,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E7AFCC4B8264FB9986E3716 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = isosceles_triangle.cpp; path = isosceles_triangle.cpp; sourceTree = SOURCE_ROOT; };
-		147C3E9C797A4AD292A047A5 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = right_triangle.hpp; path = right_triangle.hpp; sourceTree = SOURCE_ROOT; };
-		1DF559C436F94373A499A784 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = figure.hpp; path = figure.hpp; sourceTree = SOURCE_ROOT; };
-		2843170E1F3E4439BF8FD74A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rhomb.cpp; path = rhomb.cpp; sourceTree = SOURCE_ROOT; };
-		30595694354B4FEB96A6D33B /* main.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		36623C0267EA492D976A83F2 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parallelogram.cpp; path = parallelogram.cpp; sourceTree = SOURCE_ROOT; };
-		69D0E372DF534D2AAA060ECE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = square.hpp; path = square.hpp; sourceTree = SOURCE_ROOT; };
-		72A35D5B2C7F4A499CA42ED4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = parallelogram.hpp; path = parallelogram.hpp; sourceTree = SOURCE_ROOT; };
-		7F6C5844B44A4603975F28B4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rectangle.cpp; path = rectangle.cpp; sourceTree = SOURCE_ROOT; };
-		89BCE748BEBE4F65A955C5B0 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = triangle.hpp; path = triangle.hpp; sourceTree = SOURCE_ROOT; };
-		89C1D98F32C34FD5A80B426A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A345471EE50146F39D9E7DFE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = triangle.cpp; sourceTree = SOURCE_ROOT; };
-		A41201A92CD74213B01A2603 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rhomb.hpp; path = rhomb.hpp; sourceTree = SOURCE_ROOT; };
-		A50577F169D54195B859DE12 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadrilateral.cpp; path = quadrilateral.cpp; sourceTree = SOURCE_ROOT; };
-		AA9B1A7853B44038A262BE9C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quadrilateral.hpp; path = quadrilateral.hpp; sourceTree = SOURCE_ROOT; };
-		C25B15AC32864DAF879E2E65 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = square.cpp; path = square.cpp; sourceTree = SOURCE_ROOT; };
-		C4F3E76C3B7B4F818AEB6B97 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = rectangle.hpp; path = rectangle.hpp; sourceTree = SOURCE_ROOT; };
-		C6F6E6FCAD5248DEA7D9CF21 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = figure.cpp; path = figure.cpp; sourceTree = SOURCE_ROOT; };
-		CB5C593C27124C5C944032D6 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = right_triangle.cpp; path = right_triangle.cpp; sourceTree = SOURCE_ROOT; };
-		D9528C9D47434D78A2EF265F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = equilateral_triangle.cpp; path = equilateral_triangle.cpp; sourceTree = SOURCE_ROOT; };
-		DC2BAB83FC2B4FBC86655D73 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E218FE75F689476E8C426C80 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = isosceles_triangle.hpp; path = isosceles_triangle.hpp; sourceTree = SOURCE_ROOT; };
-		E423475D9C8948A782ECE206 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = equilateral_triangle.hpp; path = equilateral_triangle.hpp; sourceTree = SOURCE_ROOT; };
+		00343F582B251A440058A1D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "cppm-homework-06.03/main.cpp"; sourceTree = "<group>"; };
+		00343F592B251A440058A1D7 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = main.hpp; path = "cppm-homework-06.03/main.hpp"; sourceTree = "<group>"; };
+		00343F612B251C620058A1D7 /* figure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = figure.cpp; sourceTree = "<group>"; };
+		00343F622B251C620058A1D7 /* figure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = figure.hpp; sourceTree = "<group>"; };
+		0F79481E92E7492A92E41C6D /* rhomb.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = rhomb.hpp; sourceTree = SOURCE_ROOT; };
+		1ED3C04A268D498B8E6FD975 /* equilateral_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = equilateral_triangle.hpp; sourceTree = SOURCE_ROOT; };
+		29A5EC3B2289413284839CDA /* parallelogram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = parallelogram.cpp; sourceTree = SOURCE_ROOT; };
+		2EADCB8FA52E47DBBA24AB8A /* right_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = right_triangle.hpp; sourceTree = SOURCE_ROOT; };
+		38C53AF9577540199ADE8EEC /* main.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A82B08E284A4E81973BE8EE /* rectangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = rectangle.hpp; sourceTree = SOURCE_ROOT; };
+		44BB076E4C6F43879417C517 /* isosceles_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = isosceles_triangle.cpp; sourceTree = SOURCE_ROOT; };
+		5355B117FEEA4012AF267C87 /* square.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = square.hpp; sourceTree = SOURCE_ROOT; };
+		555C28884E494C55829FD698 /* triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = triangle.hpp; sourceTree = SOURCE_ROOT; };
+		5B825BD425BE4AA0AD6D8C4C /* parallelogram.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = parallelogram.hpp; sourceTree = SOURCE_ROOT; };
+		A73EB995876B4C12A2DBADC3 /* rhomb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = rhomb.cpp; sourceTree = SOURCE_ROOT; };
+		AF41B8FFA63D4F5B968ACD44 /* quadrilateral.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = quadrilateral.hpp; sourceTree = SOURCE_ROOT; };
+		B71B3D9CED4143B280942F62 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C1F641FBBD064EB4908C7E05 /* rectangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = rectangle.cpp; sourceTree = SOURCE_ROOT; };
+		C374BE55FBB94E9691217B4F /* isosceles_triangle.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = isosceles_triangle.hpp; sourceTree = SOURCE_ROOT; };
+		C3C4786312374AFC9E9F7271 /* quadrilateral.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = quadrilateral.cpp; sourceTree = SOURCE_ROOT; };
+		DE56C8A89FBC48578C20E160 /* equilateral_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = equilateral_triangle.cpp; sourceTree = SOURCE_ROOT; };
+		EBCB24B38BE24200A3E0EFE8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EC30714EA58848F8AB6B6079 /* square.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = square.cpp; sourceTree = SOURCE_ROOT; };
+		EF5C9E0C4BEC4E90A59228A1 /* triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = triangle.cpp; sourceTree = SOURCE_ROOT; };
+		F0C01856C36E4A2A86832289 /* right_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = right_triangle.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A80D9CEC004E4711A2449A8A /* Frameworks */ = {
+		2F2249084C4B42429F75AAC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,97 +110,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EC05BD903E7453CBE65F331 /* Resources */ = {
+		458DFC321A984FBF94B22CA4 /* main.cpp */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		22A3838925254252AA3287BA /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				D9528C9D47434D78A2EF265F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.cpp */,
-				C6F6E6FCAD5248DEA7D9CF21 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.cpp */,
-				0E7AFCC4B8264FB9986E3716 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.cpp */,
-				36623C0267EA492D976A83F2 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.cpp */,
-				A50577F169D54195B859DE12 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.cpp */,
-				7F6C5844B44A4603975F28B4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.cpp */,
-				2843170E1F3E4439BF8FD74A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.cpp */,
-				CB5C593C27124C5C944032D6 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.cpp */,
-				C25B15AC32864DAF879E2E65 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.cpp */,
-				A345471EE50146F39D9E7DFE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		2D902F4ED0C04600A3757E2C /* main.cpp */ = {
-			isa = PBXGroup;
-			children = (
-				350139AC7F9B4CDD9537E8CE /* Header Files */,
-				22A3838925254252AA3287BA /* Source Files */,
-				DC2BAB83FC2B4FBC86655D73 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */,
+				D8837B2AF64F407BA044E064 /* Header Files */,
+				D65BD2E2989046EEA4FEB4EF /* Source Files */,
+				B71B3D9CED4143B280942F62 /* CMakeLists.txt */,
 			);
 			name = main.cpp;
 			sourceTree = "<group>";
 		};
-		350139AC7F9B4CDD9537E8CE /* Header Files */ = {
+		4E865ADDB95C4E3595B3739E = {
 			isa = PBXGroup;
 			children = (
-				E423475D9C8948A782ECE206 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.hpp */,
-				1DF559C436F94373A499A784 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.hpp */,
-				E218FE75F689476E8C426C80 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.hpp */,
-				72A35D5B2C7F4A499CA42ED4 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.hpp */,
-				AA9B1A7853B44038A262BE9C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.hpp */,
-				C4F3E76C3B7B4F818AEB6B97 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.hpp */,
-				A41201A92CD74213B01A2603 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.hpp */,
-				147C3E9C797A4AD292A047A5 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.hpp */,
-				69D0E372DF534D2AAA060ECE /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.hpp */,
-				89BCE748BEBE4F65A955C5B0 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.hpp */,
+				458DFC321A984FBF94B22CA4 /* main.cpp */,
+				A85BAB0261534B829340D193 /* ALL_BUILD */,
+				C05E3B889D994A7DADA00932 /* Products */,
+				7BC1BEDB7C2F4061819040A4 /* Frameworks */,
+				92E38AABD9C44CEA963C3CB0 /* Resources */,
 			);
-			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		5815E0D16F7E475681A465DB /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		589E2CB7111B450497F94B74 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				5815E0D16F7E475681A465DB /* CMake Rules */,
-				89C1D98F32C34FD5A80B426A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		DED7027381324F34A642F03F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				30595694354B4FEB96A6D33B /* main.cpp */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EB925544A2434BE9B6ED9E84 /* Frameworks */ = {
+		7BC1BEDB7C2F4061819040A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F6BED970D0EA42569FAE216C = {
+		92E38AABD9C44CEA963C3CB0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2D902F4ED0C04600A3757E2C /* main.cpp */,
-				589E2CB7111B450497F94B74 /* ALL_BUILD */,
-				DED7027381324F34A642F03F /* Products */,
-				EB925544A2434BE9B6ED9E84 /* Frameworks */,
-				0EC05BD903E7453CBE65F331 /* Resources */,
 			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A85BAB0261534B829340D193 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C3FCE65775DE421AB19A76E9 /* CMake Rules */,
+				EBCB24B38BE24200A3E0EFE8 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C05E3B889D994A7DADA00932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C53AF9577540199ADE8EEC /* main.cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3FCE65775DE421AB19A76E9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D65BD2E2989046EEA4FEB4EF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				00343F612B251C620058A1D7 /* figure.cpp */,
+				DE56C8A89FBC48578C20E160 /* equilateral_triangle.cpp */,
+				44BB076E4C6F43879417C517 /* isosceles_triangle.cpp */,
+				29A5EC3B2289413284839CDA /* parallelogram.cpp */,
+				C3C4786312374AFC9E9F7271 /* quadrilateral.cpp */,
+				C1F641FBBD064EB4908C7E05 /* rectangle.cpp */,
+				A73EB995876B4C12A2DBADC3 /* rhomb.cpp */,
+				F0C01856C36E4A2A86832289 /* right_triangle.cpp */,
+				00343F582B251A440058A1D7 /* main.cpp */,
+				EC30714EA58848F8AB6B6079 /* square.cpp */,
+				EF5C9E0C4BEC4E90A59228A1 /* triangle.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D8837B2AF64F407BA044E064 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				00343F622B251C620058A1D7 /* figure.hpp */,
+				1ED3C04A268D498B8E6FD975 /* equilateral_triangle.hpp */,
+				C374BE55FBB94E9691217B4F /* isosceles_triangle.hpp */,
+				5B825BD425BE4AA0AD6D8C4C /* parallelogram.hpp */,
+				AF41B8FFA63D4F5B968ACD44 /* quadrilateral.hpp */,
+				3A82B08E284A4E81973BE8EE /* rectangle.hpp */,
+				0F79481E92E7492A92E41C6D /* rhomb.hpp */,
+				2EADCB8FA52E47DBBA24AB8A /* right_triangle.hpp */,
+				00343F592B251A440058A1D7 /* main.hpp */,
+				5355B117FEEA4012AF267C87 /* square.hpp */,
+				555C28884E494C55829FD698 /* triangle.hpp */,
+			);
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,19 +210,19 @@
 /* Begin PBXNativeTarget section */
 		FB835F4882B44F77A489FF6B /* main.cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6B3D897F15A485DB1116983 /* Build configuration list for PBXNativeTarget "main.cpp" */;
+			buildConfigurationList = 7571D7C92AF7454E8BD43C64 /* Build configuration list for PBXNativeTarget "main.cpp" */;
 			buildPhases = (
-				22713BEF1E8B4D48807415EC /* Sources */,
-				A80D9CEC004E4711A2449A8A /* Frameworks */,
+				EB28709FF79145458072EEE3 /* Sources */,
+				2F2249084C4B42429F75AAC8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A13F8048C4304A058E196D13 /* PBXTargetDependency */,
+				0C89565BED7E4B12BC81FED1 /* PBXTargetDependency */,
 			);
 			name = main.cpp;
 			productName = main.cpp;
-			productReference = 30595694354B4FEB96A6D33B /* main.cpp */;
+			productReference = 38C53AF9577540199ADE8EEC /* main.cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -268,22 +231,18 @@
 		FB16A2B53FE04F61BBBD66EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = 5B3AE69A44E441F58CDEFF68 /* Build configuration list for PBXProject "cppm-homework-06.03" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				8A2E89BE1ACD4893B4F164B6 /* Debug */,
-				4D4B065F9FAC4FA8A80EEDCA /* Release */,
-				88A5D4A7EA69432EA970F50E /* MinSizeRel */,
-				346A5A2490824A4694AA6A07 /* RelWithDebInfo */,
-			);
+			buildConfigurationList = 5312369B597B4CE1A5E8F9D0 /* Build configuration list for PBXProject "cppm-homework-06.03" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			mainGroup = F6BED970D0EA42569FAE216C;
-			projectDirPath = .;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E865ADDB95C4E3595B3739E;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				24E9E8DFCA3C4414A62BDEE8 /* ALL_BUILD */,
@@ -304,57 +263,11 @@
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-"/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeFiles/ALL_BUILD"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		3C0110FC8322DE7E50886E21 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				"/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeFiles/ALL_BUILD",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		9B50530E35CC49C82C2FACCF = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  echo Build\\ all\\ projects\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D4D7A2B74F000103B72FB7A6 /* Generate CMakeFiles/ZERO_CHECK */ = {
@@ -367,232 +280,56 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-"/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeFiles/ZERO_CHECK"			);
+				"/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeFiles/ZERO_CHECK",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03
-  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make
-fi
-";
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03\n  make -f /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/CMakeScripts/ReRunCMake.make\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22713BEF1E8B4D48807415EC /* Sources */ = {
+		EB28709FF79145458072EEE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				287C8E2041934895B4B4C212 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/equilateral_triangle.cpp */,
-				C5B44FC2908E4F88A0490815 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/figure.cpp */,
-				B30A80579D124E12AB6D3BDD /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/isosceles_triangle.cpp */,
-				AF4D1E498EAC4DC1ACC8745B /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/parallelogram.cpp */,
-				83162084224C4DD79E77AE23 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/quadrilateral.cpp */,
-				AC730CDB3F194BFF8FE4035C /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rectangle.cpp */,
-				A0319E68981F49FF8A6FBBCF /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/rhomb.cpp */,
-				800990EE53E3463D8E08F71F /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/right_triangle.cpp */,
-				8E84A1E942D8482E8FE17250 /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/square.cpp */,
-				FD20CAC82F9D48D49FA6B40A /* /Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/triangle.cpp */,
+				ED90C5E060DB4AC5AFAD9DDF /* equilateral_triangle.cpp in Sources */,
+				C0469F0FDB7C4830A208C561 /* isosceles_triangle.cpp in Sources */,
+				3DD11597EA774AFFBBEF22A4 /* parallelogram.cpp in Sources */,
+				00343F5A2B251A440058A1D7 /* main.cpp in Sources */,
+				522B54DE9FEF45D98AB4C054 /* quadrilateral.cpp in Sources */,
+				01CD6B02E7E747B98A77F80F /* rectangle.cpp in Sources */,
+				65DDC4F3E1A54B29A98B195C /* rhomb.cpp in Sources */,
+				DAEB51B033D44330875AC2EB /* right_triangle.cpp in Sources */,
+				00343F632B251C620058A1D7 /* figure.cpp in Sources */,
+				077B44F984534B299F594EC1 /* square.cpp in Sources */,
+				C51CA8CA188943BBB39A6B26 /* triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		273579E28288415AA9E99EFD /* PBXTargetDependency */ = {
+		0C89565BED7E4B12BC81FED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE4D5EA77E3498E83D3178F /* ZERO_CHECK */;
+			targetProxy = F3B0DE912EBD4961ABBBD957 /* PBXContainerItemProxy */;
+		};
+		ABF3F170CD3848079319F65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE4D5EA77E3498E83D3178F /* ZERO_CHECK */;
+			targetProxy = D79B14EE5D5E4B89B808172E /* PBXContainerItemProxy */;
+		};
+		D1695CFFDF214740BC37C072 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FB835F4882B44F77A489FF6B /* main.cpp */;
-			targetProxy = 64928202D35948ACA34E9342 /* PBXContainerItemProxy */;
-		};
-		A13F8048C4304A058E196D13 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBE4D5EA77E3498E83D3178F /* ZERO_CHECK */;
-			targetProxy = 1FC84DADD4AF4240997F76EF /* PBXContainerItemProxy */;
-		};
-		BA9A160268B34813A0952CE0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DBE4D5EA77E3498E83D3178F /* ZERO_CHECK */;
-			targetProxy = FC7637ABFA6D4BBF97552603 /* PBXContainerItemProxy */;
+			targetProxy = 6B2343D34C5E41AAB10169FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2CA4940159C248F586B9D6CF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		327D88B112564B4D8ED68F5D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4A4C7232FCA14CEDB7115A8C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/RelWithDebInfo";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = main.cpp;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		5225E517470E40F0A97A9204 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		5F6AF965D953444AB4231CF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		6CE5628BB8D6421F94607C37 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/MinSizeRel";
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = main.cpp;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		7B2A06F069AC4E8B85B7DDC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
-			};
-			name = Debug;
-		};
-		81093A94176244DABBDF0E48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		946EEFF12450402995BDA764 /* Release */ = {
+		09986C003C2246419ABC41A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -604,51 +341,7 @@ fi
 			};
 			name = Release;
 		};
-		9CD692CC3E90470B9A1D7092 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
-			};
-			name = MinSizeRel;
-		};
-		A053FA56E1F3486B8F35630D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
-			};
-			name = RelWithDebInfo;
-		};
-		AE716101A1A145198060885B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		D2CFFC6BD9B1483B86DC9B30 /* Debug */ = {
+		1B7383292F8346A9B427AFED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,21 +352,256 @@ fi
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_CPLUSPLUSFLAGS = "   ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = main.cpp;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Debug;
 		};
-		E1B1AB1E4FC0495AA95CED79 /* Release */ = {
+		3090259E9F1B434BB5F8262E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		4D86D71DF74349CB8A1A0947 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main.cpp;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		73AC3A2286164968A943FF51 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		7801B199DF424495BA71AC08 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		8DFD2FFBE1294AAEA3F2B073 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		DD159807EA5540558D6BA5EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
+			};
+			name = MinSizeRel;
+		};
+		DE9DF475172342AF9CD07EFC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E0F62AF92CC142DEA1C6D1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		E2289479CAC34711821A60F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		E4F68726EA8840E49C2A8E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build";
+			};
+			name = Debug;
+		};
+		F7A2D9DCFC874877981CF42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		F7F5980D36E14540A3EC6A4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -684,41 +612,60 @@ fi
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = main.cpp;
 				SECTORDER_FLAGS = "";
 				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = Release;
 		};
-		F0220110D38449D085D430BA /* Release */ = {
+		F92DB51833754D81B91CA16C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"$(inherited)",
+				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = main.cpp;
 				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/a/Desktop/Programming/Netology/cppm-homeworks/cppm-homework_06/cppm-homework-06.03/build/main.cpp.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		F5877A0900C64699BC2B22B6 /* MinSizeRel */ = {
+		FD51053C056940A68F4FCB0F /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -726,61 +673,64 @@ fi
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_LDFLAGS = " $(inherited)";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				WARNING_CFLAGS = "$(inherited)";
 			};
 			name = MinSizeRel;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B3AE69A44E441F58CDEFF68 /* Build configuration list for PBXProject "cppm-homework-06.03" */ = {
+		52158807FFD94E0297315FC2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B2A06F069AC4E8B85B7DDC6 /* Debug */,
-				946EEFF12450402995BDA764 /* Release */,
-				9CD692CC3E90470B9A1D7092 /* MinSizeRel */,
-				A053FA56E1F3486B8F35630D /* RelWithDebInfo */,
+				F7A2D9DCFC874877981CF42B /* Debug */,
+				3090259E9F1B434BB5F8262E /* Release */,
+				73AC3A2286164968A943FF51 /* MinSizeRel */,
+				7801B199DF424495BA71AC08 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		92A0F9D2A5A144668CFD3AA7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		5312369B597B4CE1A5E8F9D0 /* Build configuration list for PBXProject "cppm-homework-06.03" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81093A94176244DABBDF0E48 /* Debug */,
-				5225E517470E40F0A97A9204 /* Release */,
-				F5877A0900C64699BC2B22B6 /* MinSizeRel */,
-				327D88B112564B4D8ED68F5D /* RelWithDebInfo */,
+				E4F68726EA8840E49C2A8E35 /* Debug */,
+				09986C003C2246419ABC41A3 /* Release */,
+				DD159807EA5540558D6BA5EB /* MinSizeRel */,
+				DE9DF475172342AF9CD07EFC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C6B3D897F15A485DB1116983 /* Build configuration list for PBXNativeTarget "main.cpp" */ = {
+		7571D7C92AF7454E8BD43C64 /* Build configuration list for PBXNativeTarget "main.cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2CFFC6BD9B1483B86DC9B30 /* Debug */,
-				E1B1AB1E4FC0495AA95CED79 /* Release */,
-				6CE5628BB8D6421F94607C37 /* MinSizeRel */,
-				4A4C7232FCA14CEDB7115A8C /* RelWithDebInfo */,
+				1B7383292F8346A9B427AFED /* Debug */,
+				F7F5980D36E14540A3EC6A4D /* Release */,
+				4D86D71DF74349CB8A1A0947 /* MinSizeRel */,
+				F92DB51833754D81B91CA16C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D68BD6A31C984613A433D150 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		E783FB9E3E18427592A99D09 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F6AF965D953444AB4231CF0 /* Debug */,
-				F0220110D38449D085D430BA /* Release */,
-				2CA4940159C248F586B9D6CF /* MinSizeRel */,
-				AE716101A1A145198060885B /* RelWithDebInfo */,
+				E0F62AF92CC142DEA1C6D1D8 /* Debug */,
+				E2289479CAC34711821A60F2 /* Release */,
+				FD51053C056940A68F4FCB0F /* MinSizeRel */,
+				8DFD2FFBE1294AAEA3F2B073 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
